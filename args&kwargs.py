@@ -22,3 +22,13 @@ myfunc(fruit='apple', veggie='lettuce', jelly='grape')
 def myfunc2(*args, **kwargs):
       print("I would like {} {}".format(args[0], kwargs['food']))
 myfunc2(1,2, 3, food = "sandwich")
+def myfunc(s):
+    result = []
+    for i, c in enumerate(s):
+        if i % 2 == 0:
+            result.append(c.upper())
+        else:
+            result.append(c.lower())
+    return ''.join(result)
+
+print(myfunc("Aditya"))  # Output: AdItYa
