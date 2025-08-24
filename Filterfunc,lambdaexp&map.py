@@ -1,4 +1,5 @@
-# We are using map function to apply a function to all it elements of an iterable (like a list).
+# We are using map function to apply a
+# function to all it elements of an iterable (like a list).
 # The map function returns a map object (which is an iterator), 
 # so we need to convert it to a list or another iterable type.
 
@@ -15,13 +16,15 @@ def str(s):
 name = ["Aditya", "Sumit", "Aman", "Yohan"]
 str_list = list(map(str, name))
 print(str_list)
-# Now we will use filter function to filter out elements from an iterable based on a condition.
+# Now we will use filter function to filter out elements from an iterable
+# based on a condition.
 # The filter function returns a filtered object (which is an iterator),
 # so we need to convert it to a list or another iterable type.
 def is_even(y):
     return y%2 == 0
 num = [1,2,3,4,5,6,7,8]
 even_num = list(filter(is_even, num))
+print(even_num)
 # Now we will use lambda experssion to create samll anonymous functions.
 # Lambda function are often used with map and filter functions.
 #example
