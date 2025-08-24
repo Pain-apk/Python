@@ -1,7 +1,7 @@
-/* There are two types of String Interpolation in python
-1. f-Strings (formatted string literals)
-2. str.format() method
-*/
+# There are two types of String Interpolation in python
+#1. f-Strings (formatted string literals)
+#2. str.format() method
+
 # f-strings can be used to embed experssion inside string literals, using curly braces '{}'
 name = "Aditya"
 age = 20
