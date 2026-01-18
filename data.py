@@ -7,6 +7,7 @@ myInt =7
 myfloat = 7.5
 # 3) Strings sequence of characters
 mystring = "Yo python"
+# Indexing starts at 0 to N and -1 to -N for reverse indexing
 
 # 4) Disctionaries key value pairs
 mydict = {'name': 'john', 'age': 25}
