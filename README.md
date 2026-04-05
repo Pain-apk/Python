@@ -9,11 +9,11 @@ graph TD
     E --> F[Display Insights]
     F --> G([END])
 
-    style A fill:#ffffff,stroke:#000,stroke-width:2px,stroke-dasharray: 5 5
-    style B fill:#ffffff,stroke:#000,stroke-width:2px
-    style C fill:#ffffff,stroke:#000,stroke-width:2px
-    style D fill:#ffffff,stroke:#000,stroke-width:2px
-    style E fill:#ffffff,stroke:#000,stroke-width:2px
-    style F fill:#ffffff,stroke:#000,stroke-width:2px
-    style G fill:#ffffff,stroke:#000,stroke-width:2px,stroke-dasharray: 5 5
+    style A fill:#ffffff,color:#000000,stroke:#000,stroke-width:2px,stroke-dasharray: 5 5
+    style B fill:#ffffff,color:#000000,stroke:#000,stroke-width:2px
+    style C fill:#ffffff,color:#000000,stroke:#000,stroke-width:2px
+    style D fill:#ffffff,color:#000000,stroke:#000,stroke-width:2px
+    style E fill:#ffffff,color:#000000,stroke:#000,stroke-width:2px
+    style F fill:#ffffff,color:#000000,stroke:#000,stroke-width:2px
+    style G fill:#ffffff,color:#000000,stroke:#000,stroke-width:2px,stroke-dasharray: 5 5
 ```
